@@ -154,6 +154,18 @@
     "repo": "https://github.com/purescript/purescript-foreign.git",
     "version": "compiler/0.12"
   },
+  "foreign-object": {
+    "dependencies": [
+      "arrays",
+      "functions",
+      "lists",
+      "st",
+      "gen",
+      "foldable-traversable"
+    ],
+    "repo": "https://github.com/purescript/purescript-foreign-object.git",
+    "version": "compiler/0.12"
+  },
   "free": {
     "dependencies": [
       "catenable-lists",
@@ -257,18 +269,6 @@
     "repo": "https://github.com/purescript/purescript-lists.git",
     "version": "compiler/0.12"
   },
-  "ordered-collections": {
-    "dependencies": [
-      "arrays",
-      "functions",
-      "lists",
-      "st",
-      "gen",
-      "foldable-traversable"
-    ],
-    "repo": "https://github.com/purescript/purescript-ordered-collections.git",
-    "version": "compiler/0.12"
-  },
   "math": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-math.git",
@@ -297,6 +297,18 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-nonempty.git",
+    "version": "compiler/0.12"
+  },
+  "ordered-collections": {
+    "dependencies": [
+      "arrays",
+      "functions",
+      "lists",
+      "st",
+      "gen",
+      "foldable-traversable"
+    ],
+    "repo": "https://github.com/purescript/purescript-ordered-collections.git",
     "version": "compiler/0.12"
   },
   "orders": {
@@ -436,8 +448,7 @@
     "version": "compiler/0.12"
   },
   "type-equality": {
-    "dependencies": [
-    ],
+    "dependencies": [],
     "repo": "https://github.com/purescript/purescript-type-equality.git",
     "version": "compiler/0.12"
   },
