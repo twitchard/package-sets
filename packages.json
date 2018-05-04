@@ -364,6 +364,24 @@
     "repo": "https://github.com/purescript/purescript-psci-support.git",
     "version": "compiler/0.12"
   },
+  "quickcheck": {
+    "dependencies": [
+      "record",
+      "lists",
+      "strings",
+      "generics-rep",
+      "exceptions",
+      "unfoldable",
+      "lcg",
+      "tuples",
+      "gen",
+      "console",
+      "effect",
+      "transformers"
+    ],
+    "repo": "https://github.com/purescript/purescript-quickcheck.git",
+    "version": "compiler/0.12"
+  },
   "random": {
     "dependencies": [
       "effect",
