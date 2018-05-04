@@ -495,7 +495,8 @@
   "validation": {
     "dependencies": [
       "bifunctors",
-      "foldable-traversable"
+      "foldable-traversable",
+      "either"
     ],
     "repo": "https://github.com/purescript/purescript-validation.git",
     "version": "compiler/0.12"
