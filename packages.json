@@ -15,6 +15,7 @@
   "aff-coroutines": {
     "dependencies": [
       "aff",
+      "avar",
       "arrays",
       "bifunctors",
       "console",
