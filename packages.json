@@ -1,4 +1,9 @@
 {
+  "arraybuffer-types": {
+    "dependencies": [],
+    "repo": "https://github.com/purescript-contrib/purescript-arraybuffer-types.git",
+    "version": "v2.0.0"
+  },
   "arrays": {
     "dependencies": [
       "foldable-traversable",
@@ -27,6 +32,20 @@
       "newtype"
     ],
     "repo": "https://github.com/purescript/purescript-bifunctors.git",
+    "version": "compiler/0.12"
+  },
+  "canvas": {
+    "dependencies": [
+      "prelude",
+      "console",
+      "integers",
+      "st",
+      "partial",
+      "exceptions",
+      "functions",
+      "arraybuffer-types"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-canvas.git",
     "version": "compiler/0.12"
   },
   "catenable-lists": {
