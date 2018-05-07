@@ -1,4 +1,17 @@
 {
+  "aff": {
+    "dependencies": [
+      "exceptions",
+      "functions",
+      "parallel",
+      "transformers",
+      "unsafe-coerce",
+      "datetime",
+      "effect"
+    ],
+    "repo": "https://github.com/slamdata/purescript-aff.git",
+    "version": "compiler/0.12"
+  },
   "arraybuffer-types": {
     "dependencies": [],
     "repo": "https://github.com/purescript-contrib/purescript-arraybuffer-types.git",
