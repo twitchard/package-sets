@@ -298,6 +298,7 @@
     "dependencies": [
       "prelude",
       "console",
+      "refs",
       "integers",
       "partial"
     ],
