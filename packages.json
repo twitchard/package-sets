@@ -28,7 +28,6 @@
   },
   "bifunctors": {
     "dependencies": [
-      "control",
       "newtype"
     ],
     "repo": "https://github.com/purescript/purescript-bifunctors.git",
@@ -37,10 +36,6 @@
   "canvas": {
     "dependencies": [
       "prelude",
-      "console",
-      "integers",
-      "st",
-      "partial",
       "exceptions",
       "functions",
       "arraybuffer-types"
@@ -97,8 +92,7 @@
       "integers",
       "foldable-traversable",
       "ordered-collections",
-      "math",
-      "proxy"
+      "math"
     ],
     "repo": "https://github.com/purescript/purescript-datetime.git",
     "version": "compiler/0.12"
@@ -161,9 +155,7 @@
   },
   "foreign": {
     "dependencies": [
-      "arrays",
       "either",
-      "foldable-traversable",
       "functions",
       "integers",
       "lists",
@@ -217,7 +209,6 @@
       "tailrec",
       "tuples",
       "unfoldable",
-      "integers",
       "foldable-traversable",
       "nonempty"
     ],
@@ -249,8 +240,7 @@
     "dependencies": [
       "globals",
       "math",
-      "maybe",
-      "partial"
+      "maybe"
     ],
     "repo": "https://github.com/purescript/purescript-integers.git",
     "version": "compiler/0.12"
@@ -308,7 +298,6 @@
       "prelude",
       "console",
       "integers",
-      "st",
       "partial"
     ],
     "repo": "https://github.com/purescript/purescript-minibench.git",
@@ -332,7 +321,6 @@
   "ordered-collections": {
     "dependencies": [
       "arrays",
-      "functions",
       "lists",
       "st",
       "gen",
@@ -415,15 +403,13 @@
   "random": {
     "dependencies": [
       "effect",
-      "integers",
-      "math"
+      "integers"
     ],
     "repo": "https://github.com/purescript/purescript-random.git",
     "version": "compiler/0.12"
   },
   "record": {
     "dependencies": [
-      "functions",
       "st",
       "typelevel-prelude"
     ],
@@ -477,7 +463,6 @@
   },
   "transformers": {
     "dependencies": [
-      "arrays",
       "lazy",
       "distributive",
       "tuples"
