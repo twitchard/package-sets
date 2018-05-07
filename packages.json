@@ -79,6 +79,18 @@
     "repo": "https://github.com/purescript/purescript-assert.git",
     "version": "compiler/0.12"
   },
+  "avar": {
+    "dependencies": [
+      "aff",
+      "effect",
+      "maybe",
+      "either",
+      "functions",
+      "exceptions"
+    ],
+    "repo": "https://github.com/slamdata/purescript-avar.git",
+    "version": "compiler/0.12"
+  },
   "bifunctors": {
     "dependencies": [
       "newtype"
