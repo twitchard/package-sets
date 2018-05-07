@@ -261,7 +261,8 @@
   },
   "lcg": {
     "dependencies": [
-      "random"
+      "random",
+      "partial"
     ],
     "repo": "https://github.com/purescript/purescript-lcg.git",
     "version": "compiler/0.12"
