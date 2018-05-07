@@ -35,7 +35,6 @@
       "invariant",
       "lazy",
       "maybe",
-      "monoid",
       "newtype",
       "nonempty",
       "parallel",
@@ -159,7 +158,6 @@
       "invariant",
       "lazy",
       "maybe",
-      "monoid",
       "newtype",
       "nonempty",
       "parallel",
@@ -227,7 +225,7 @@
       "either",
       "maybe"
     ],
-    "repo": "https://github.com/MonoidMusician/purescript-exceptions.git",
+    "repo": "https://github.com/purescript/purescript-exceptions.git",
     "version": "compiler/0.12"
   },
   "exists": {
