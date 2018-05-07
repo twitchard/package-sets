@@ -243,7 +243,6 @@
   },
   "freet": {
     "dependencies": [
-      "control",
       "tailrec",
       "transformers",
       "exists",
