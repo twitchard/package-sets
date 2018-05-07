@@ -344,9 +344,7 @@
       "transformers",
       "refs",
       "functors",
-      "foldable-traversable",
-      "tailrec",
-      "unfoldable"
+      "foldable-traversable"
     ],
     "repo": "https://github.com/purescript/purescript-parallel.git",
     "version": "compiler/0.12"
