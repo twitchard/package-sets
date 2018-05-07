@@ -284,6 +284,17 @@
     "repo": "https://github.com/purescript/purescript-maybe.git",
     "version": "compiler/0.12"
   },
+  "minibench": {
+    "dependencies": [
+      "prelude",
+      "console",
+      "integers",
+      "st",
+      "partial"
+    ],
+    "repo": "https://github.com/purescript/purescript-minibench.git",
+    "version": "compiler/0.12"
+  },
   "newtype": {
     "dependencies": [
       "prelude"
