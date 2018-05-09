@@ -967,6 +967,11 @@
     "repo": "https://github.com/purescript/purescript-unsafe-coerce.git",
     "version": "compiler/0.12"
   },
+  "unsafe-reference": {
+    "dependencies": [],
+    "repo": "https://github.com/purescript-contrib/purescript-unsafe-reference.git",
+    "version": "compiler/0.12"
+  },
   "validation": {
     "dependencies": [
       "bifunctors",
