@@ -492,6 +492,14 @@
     "repo": "https://github.com/purescript/purescript-maybe.git",
     "version": "compiler/0.12"
   },
+  "media-types": {
+    "dependencies": [
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-media-types.git",
+    "version": "compiler/0.12"
+  },
   "minibench": {
     "dependencies": [
       "console",
