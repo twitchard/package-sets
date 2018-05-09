@@ -552,6 +552,24 @@
     "repo": "https://github.com/purescript/purescript-partial.git",
     "version": "compiler/0.12"
   },
+  "precise": {
+    "dependencies": [
+      "exceptions",
+      "foldable-traversable",
+      "globals",
+      "integers",
+      "lists",
+      "maybe",
+      "partial",
+      "prelude",
+      "quickcheck",
+      "strings",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-precise.git",
+    "version": "compiler/0.12"
+  },
   "prelude": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-prelude.git",
