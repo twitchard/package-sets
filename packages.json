@@ -348,7 +348,7 @@
       "tuples",
       "unsafe-coerce"
     ],
-    "repo": "https://github.com/kritzcreek/purescript-freeap.git",
+    "repo": "https://github.com/ethul/purescript-freeap.git",
     "version": "compiler/0.12"
   },
   "freet": {
