@@ -18,6 +18,11 @@
     "repo": "https://github.com/slamdata/purescript-aff.git",
     "version": "compiler/0.12"
   },
+  "strongcheck": {
+    "dependencies": [],
+    "repo": "https://github.com/purescript-contrib/purescript-strongcheck.git",
+    "version": "compiler/0.12"
+  },
   "aff-coroutines": {
     "dependencies": [
       "aff",
