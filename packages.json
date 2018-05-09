@@ -496,6 +496,15 @@
     "repo": "https://github.com/purescript/purescript-nonempty.git",
     "version": "compiler/0.12"
   },
+  "nullable": {
+    "dependencies": [
+      "functions",
+      "maybe",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-nullable.git",
+    "version": "compiler/0.12"
+  },
   "ordered-collections": {
     "dependencies": [
       "arrays",
