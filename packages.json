@@ -18,11 +18,6 @@
     "repo": "https://github.com/slamdata/purescript-aff.git",
     "version": "compiler/0.12"
   },
-  "strings-extra": {
-    "dependencies": [],
-    "repo": "https://github.com/purescript-contrib/purescript-strings-extra.git",
-    "version": "compiler/0.12"
-  },
   "aff-coroutines": {
     "dependencies": [
       "aff",
@@ -719,6 +714,19 @@
     "repo": "https://github.com/purescript/purescript-strings.git",
     "version": "compiler/0.12"
   },
+  "strings-extra": {
+    "dependencies": [
+      "arrays",
+      "either",
+      "foldable-traversable",
+      "partial",
+      "prelude",
+      "strings",
+      "unicode"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-strings-extra.git",
+    "version": "compiler/0.12"
+  },
   "tailrec": {
     "dependencies": [
       "bifunctors",
@@ -790,6 +798,18 @@
       "tuples"
     ],
     "repo": "https://github.com/purescript/purescript-unfoldable.git",
+    "version": "compiler/0.12"
+  },
+  "unicode": {
+    "dependencies": [
+      "arrays",
+      "integers",
+      "maybe",
+      "partial",
+      "prelude",
+      "strings"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-unicode.git",
     "version": "compiler/0.12"
   },
   "unsafe-coerce": {
