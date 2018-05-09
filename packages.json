@@ -547,6 +547,28 @@
     "repo": "https://github.com/purescript/purescript-parallel.git",
     "version": "compiler/0.12"
   },
+  "parsing": {
+    "dependencies": [
+      "arrays",
+      "control",
+      "either",
+      "foldable-traversable",
+      "identity",
+      "integers",
+      "lists",
+      "math",
+      "maybe",
+      "newtype",
+      "prelude",
+      "strings",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "unicode"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-parsing.git",
+    "version": "compiler/0.12"
+  },
   "partial": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-partial.git",
