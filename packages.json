@@ -335,6 +335,22 @@
     "repo": "https://github.com/purescript/purescript-free.git",
     "version": "compiler/0.12"
   },
+  "freeap": {
+    "dependencies": [
+      "const",
+      "either",
+      "gen",
+      "lists",
+      "newtype",
+      "nonempty",
+      "prelude",
+      "tailrec",
+      "tuples",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/kritzcreek/purescript-freeap.git",
+    "version": "compiler/0.12"
+  },
   "freet": {
     "dependencies": [
       "bifunctors",
