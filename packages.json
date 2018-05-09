@@ -18,6 +18,11 @@
     "repo": "https://github.com/slamdata/purescript-aff.git",
     "version": "compiler/0.12"
   },
+  "strings-extra": {
+    "dependencies": [],
+    "repo": "https://github.com/purescript-contrib/purescript-strings-extra.git",
+    "version": "compiler/0.12"
+  },
   "aff-coroutines": {
     "dependencies": [
       "aff",
