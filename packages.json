@@ -294,6 +294,15 @@
     "repo": "https://github.com/purescript/purescript-foreign-object.git",
     "version": "compiler/0.12"
   },
+  "fork": {
+    "dependencies": [
+      "aff",
+      "prelude",
+      "transformers"
+    ],
+    "repo": "https://github.com/slamdata/purescript-fork.git",
+    "version": "compiler/0.12"
+  },
   "form-urlencoded": {
     "dependencies": [
       "globals",
