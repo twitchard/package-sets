@@ -294,6 +294,18 @@
     "repo": "https://github.com/purescript/purescript-foreign-object.git",
     "version": "compiler/0.12"
   },
+  "form-urlencoded": {
+    "dependencies": [
+      "globals",
+      "maybe",
+      "newtype",
+      "prelude",
+      "strings",
+      "tuples"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-form-urlencoded.git",
+    "version": "compiler/0.12"
+  },
   "free": {
     "dependencies": [
       "catenable-lists",
