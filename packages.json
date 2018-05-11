@@ -41,6 +41,12 @@
         "version": "compiler/0.12"
     },
 
+    "web-events": {
+        "dependencies": [],
+        "repo": "https://github.com/purescript-web/purescript-web-events.git",
+        "version": "compiler/0.12"
+    },
+
   "aff-coroutines": {
     "dependencies": [
       "aff",
