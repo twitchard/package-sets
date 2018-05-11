@@ -33,6 +33,40 @@
     "repo": "https://github.com/purescript-contrib/purescript-aff-coroutines.git",
     "version": "compiler/0.12"
   },
+  "affjax": {
+    "dependencies": [
+      "aff",
+      "argonaut-core",
+      "arraybuffer-types",
+      "arrays",
+      "datetime",
+      "effect",
+      "either",
+      "exceptions",
+      "foldable-traversable",
+      "foreign",
+      "form-urlencoded",
+      "functions",
+      "http-methods",
+      "integers",
+      "math",
+      "maybe",
+      "media-types",
+      "newtype",
+      "nullable",
+      "parallel",
+      "prelude",
+      "refs",
+      "transformers",
+      "tuples",
+      "unsafe-coerce",
+      "web-dom",
+      "web-file",
+      "web-xhr"
+    ],
+    "repo": "https://github.com/slamdata/purescript-affjax.git",
+    "version": "compiler/0.12"
+  },
   "argonaut-core": {
     "dependencies": [
       "arrays",
