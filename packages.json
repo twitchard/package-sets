@@ -1073,6 +1073,18 @@
     "repo": "https://github.com/purescript-web/purescript-web-html.git",
     "version": "compiler/0.12"
   },
+    "web-xhr": {
+        "dependencies": [],
+        "repo": "https://github.com/purescript-web/purescript-web-xhr.git",
+        "version": "compiler/0.12"
+    },
+    "web-socket": {
+        "dependencies": [],
+        "repo": "https://github.com/purescript-web/purescript-web-socket.git",
+        "version": "compiler/0.12"
+    },
+
+
   "web-storage": {
     "dependencies": [
       "effect",
