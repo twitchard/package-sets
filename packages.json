@@ -30,6 +30,11 @@
     "repo": "https://github.com/purescript-contrib/purescript-js-date.git",
     "version": "compiler/0.12"
   },
+    "web-dom": {
+        "dependencies": [],
+        "repo": "https://github.com/purescript-web/purescript-web-dom.git",
+        "version": "compiler/0.12"
+    },
   "aff-coroutines": {
     "dependencies": [
       "aff",
