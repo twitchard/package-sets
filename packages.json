@@ -197,6 +197,19 @@
     "repo": "https://github.com/purescript/purescript-distributive.git",
     "version": "compiler/0.12"
   },
+  "dom-indexed": {
+    "dependencies": [
+      "datetime",
+      "media-types",
+      "prelude",
+      "web-clipboard",
+      "web-events",
+      "web-html",
+      "web-uievents"
+    ],
+    "repo": "https://github.com/kRITZCREEK/purescript-dom-indexed.git",
+    "version": "compiler/0.12"
+  },
   "effect": {
     "dependencies": [
       "prelude"
@@ -1138,12 +1151,6 @@
     "repo": "https://github.com/purescript-web/purescript-web-uievents.git",
     "version": "compiler/0.12"
   },
-    "dom-indexed": {
-        "dependencies": [],
-        "repo": "https://github.com/slamdata/purescript-dom-indexed.git",
-        "version": "compiler/0.12"
-    },
-
   "web-xhr": {
     "dependencies": [
       "arraybuffer-types",
