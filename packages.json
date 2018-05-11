@@ -1123,6 +1123,21 @@
     "repo": "https://github.com/purescript-web/purescript-web-storage.git",
     "version": "compiler/0.12"
   },
+  "web-uievents": {
+    "dependencies": [
+      "effect",
+      "enums",
+      "foreign",
+      "maybe",
+      "nullable",
+      "prelude",
+      "unsafe-coerce",
+      "web-dom",
+      "web-events"
+    ],
+    "repo": "https://github.com/purescript-web/purescript-web-uievents.git",
+    "version": "compiler/0.12"
+  },
   "web-xhr": {
     "dependencies": [
       "arraybuffer-types",
