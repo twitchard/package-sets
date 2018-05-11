@@ -18,35 +18,6 @@
     "repo": "https://github.com/slamdata/purescript-aff.git",
     "version": "compiler/0.12"
   },
-    "web-html": {
-        "dependencies": [],
-        "repo": "https://github.com/purescript-web/purescript-web-html.git",
-        "version": "compiler/0.12"
-    },
-
-  "js-date": {
-    "dependencies": [
-    ],
-    "repo": "https://github.com/purescript-contrib/purescript-js-date.git",
-    "version": "compiler/0.12"
-  },
-    "web-dom": {
-        "dependencies": [],
-        "repo": "https://github.com/purescript-web/purescript-web-dom.git",
-        "version": "compiler/0.12"
-    },
-    "web-storage": {
-        "dependencies": [],
-        "repo": "https://github.com/purescript-web/purescript-web-storage.git",
-        "version": "compiler/0.12"
-    },
-
-    "web-events": {
-        "dependencies": [],
-        "repo": "https://github.com/purescript-web/purescript-web-events.git",
-        "version": "compiler/0.12"
-    },
-
   "aff-coroutines": {
     "dependencies": [
       "aff",
@@ -473,6 +444,20 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-invariant.git",
+    "version": "compiler/0.12"
+  },
+  "js-date": {
+    "dependencies": [
+      "datetime",
+      "effect",
+      "enums",
+      "foreign",
+      "functions",
+      "integers",
+      "maybe",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-js-date.git",
     "version": "compiler/0.12"
   },
   "lazy": {
@@ -1010,6 +995,93 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-validation.git",
+    "version": "compiler/0.12"
+  },
+  "web-dom": {
+    "dependencies": [
+      "effect",
+      "either",
+      "enums",
+      "foreign",
+      "maybe",
+      "newtype",
+      "nullable",
+      "prelude",
+      "transformers",
+      "unsafe-coerce",
+      "web-events"
+    ],
+    "repo": "https://github.com/purescript-web/purescript-web-dom.git",
+    "version": "compiler/0.12"
+  },
+  "web-events": {
+    "dependencies": [
+      "bifunctors",
+      "datetime",
+      "effect",
+      "either",
+      "enums",
+      "foreign",
+      "maybe",
+      "newtype",
+      "nullable",
+      "prelude",
+      "transformers",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/purescript-web/purescript-web-events.git",
+    "version": "compiler/0.12"
+  },
+  "web-file": {
+    "dependencies": [
+      "effect",
+      "enums",
+      "foreign",
+      "integers",
+      "math",
+      "maybe",
+      "media-types",
+      "nullable",
+      "partial",
+      "prelude",
+      "unsafe-coerce",
+      "web-events"
+    ],
+    "repo": "https://github.com/purescript-web/purescript-web-file.git",
+    "version": "compiler/0.12"
+  },
+  "web-html": {
+    "dependencies": [
+      "effect",
+      "either",
+      "enums",
+      "foreign",
+      "js-date",
+      "maybe",
+      "media-types",
+      "newtype",
+      "nullable",
+      "partial",
+      "prelude",
+      "transformers",
+      "unsafe-coerce",
+      "web-dom",
+      "web-events",
+      "web-file",
+      "web-storage"
+    ],
+    "repo": "https://github.com/purescript-web/purescript-web-html.git",
+    "version": "compiler/0.12"
+  },
+  "web-storage": {
+    "dependencies": [
+      "effect",
+      "foreign",
+      "maybe",
+      "nullable",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript-web/purescript-web-storage.git",
     "version": "compiler/0.12"
   }
 }
