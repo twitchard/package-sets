@@ -1006,6 +1006,19 @@
     "repo": "https://github.com/purescript/purescript-validation.git",
     "version": "compiler/0.12"
   },
+  "web-clipboard": {
+    "dependencies": [
+      "foreign",
+      "maybe",
+      "nullable",
+      "prelude",
+      "unsafe-coerce",
+      "web-events",
+      "web-html"
+    ],
+    "repo": "https://github.com/purescript-web/purescript-web-clipboard.git",
+    "version": "compiler/0.12"
+  },
   "web-dom": {
     "dependencies": [
       "effect",
