@@ -418,6 +418,15 @@
     "repo": "https://github.com/purescript/purescript-globals.git",
     "version": "compiler/0.12"
   },
+  "http-methods": {
+    "dependencies": [
+      "either",
+      "prelude",
+      "strings"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-http-methods.git",
+    "version": "compiler/0.12"
+  },
   "identity": {
     "dependencies": [
       "control",
@@ -1073,18 +1082,23 @@
     "repo": "https://github.com/purescript-web/purescript-web-html.git",
     "version": "compiler/0.12"
   },
-    "web-xhr": {
-        "dependencies": [],
-        "repo": "https://github.com/purescript-web/purescript-web-xhr.git",
-        "version": "compiler/0.12"
-    },
-    "web-socket": {
-        "dependencies": [],
-        "repo": "https://github.com/purescript-web/purescript-web-socket.git",
-        "version": "compiler/0.12"
-    },
-
-
+  "web-socket": {
+    "dependencies": [
+      "arraybuffer-types",
+      "effect",
+      "enums",
+      "foreign",
+      "maybe",
+      "newtype",
+      "partial",
+      "prelude",
+      "unsafe-coerce",
+      "web-events",
+      "web-file"
+    ],
+    "repo": "https://github.com/purescript-web/purescript-web-socket.git",
+    "version": "compiler/0.12"
+  },
   "web-storage": {
     "dependencies": [
       "effect",
@@ -1094,6 +1108,28 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-storage.git",
+    "version": "compiler/0.12"
+  },
+  "web-xhr": {
+    "dependencies": [
+      "arraybuffer-types",
+      "datetime",
+      "effect",
+      "either",
+      "enums",
+      "foreign",
+      "http-methods",
+      "maybe",
+      "media-types",
+      "newtype",
+      "nullable",
+      "prelude",
+      "unsafe-coerce",
+      "web-dom",
+      "web-events",
+      "web-file"
+    ],
+    "repo": "https://github.com/purescript-web/purescript-web-xhr.git",
     "version": "compiler/0.12"
   }
 }
