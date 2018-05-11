@@ -431,6 +431,27 @@
     "repo": "https://github.com/purescript/purescript-globals.git",
     "version": "compiler/0.12"
   },
+  "halogen-vdom": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "effect",
+      "foreign",
+      "foreign-object",
+      "functions",
+      "maybe",
+      "newtype",
+      "nullable",
+      "prelude",
+      "refs",
+      "tuples",
+      "unsafe-coerce",
+      "web-dom",
+      "web-events"
+    ],
+    "repo": "https://github.com/slamdata/purescript-halogen-vdom.git",
+    "version": "compiler/0.12"
+  },
   "http-methods": {
     "dependencies": [
       "either",
