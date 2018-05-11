@@ -24,6 +24,12 @@
         "version": "compiler/0.12"
     },
 
+  "js-date": {
+    "dependencies": [
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-js-date.git",
+    "version": "compiler/0.12"
+  },
   "aff-coroutines": {
     "dependencies": [
       "aff",
