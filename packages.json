@@ -18,6 +18,12 @@
     "repo": "https://github.com/slamdata/purescript-aff.git",
     "version": "compiler/0.12"
   },
+    "web-html": {
+        "dependencies": [],
+        "repo": "https://github.com/purescript-web/purescript-web-html.git",
+        "version": "compiler/0.12"
+    },
+
   "aff-coroutines": {
     "dependencies": [
       "aff",
