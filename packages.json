@@ -33,6 +33,23 @@
     "repo": "https://github.com/purescript-contrib/purescript-aff-coroutines.git",
     "version": "compiler/0.12"
   },
+  "argonaut-core": {
+    "dependencies": [
+      "arrays",
+      "control",
+      "either",
+      "foreign-object",
+      "functions",
+      "gen",
+      "maybe",
+      "nonempty",
+      "prelude",
+      "strings",
+      "tailrec"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-argonaut-core.git",
+    "version": "compiler/0.12"
+  },
   "arraybuffer-types": {
     "dependencies": [],
     "repo": "https://github.com/purescript-contrib/purescript-arraybuffer-types.git",
