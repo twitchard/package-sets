@@ -665,6 +665,26 @@
     "repo": "https://github.com/purescript-node/purescript-node-buffer.git",
     "version": "compiler/0.12"
   },
+  "node-child-process": {
+    "dependencies": [
+      "control",
+      "effect",
+      "exceptions",
+      "foreign",
+      "foreign-object",
+      "functions",
+      "maybe",
+      "node-buffer",
+      "node-fs",
+      "node-streams",
+      "nullable",
+      "posix-types",
+      "prelude",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/purescript-node/purescript-node-child-process.git",
+    "version": "compiler/0.12"
+  },
   "node-fs": {
     "dependencies": [
       "datetime",
