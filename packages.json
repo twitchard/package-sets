@@ -655,6 +655,12 @@
     "repo": "https://github.com/purescript/purescript-newtype.git",
     "version": "compiler/0.12"
   },
+  "node-http": {
+    "dependencies": [
+    ],
+    "repo": "https://github.com/purescript-node/purescript-node-http.git",
+    "version": "compiler/0.12"
+  },
   "node-buffer": {
     "dependencies": [
       "arraybuffer-types",
