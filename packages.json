@@ -708,6 +708,20 @@
     "repo": "https://github.com/purescript-node/purescript-node-fs.git",
     "version": "compiler/0.12"
   },
+  "node-fs-aff": {
+    "dependencies": [
+      "aff",
+      "datetime",
+      "effect",
+      "maybe",
+      "node-buffer",
+      "node-fs",
+      "node-path",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript-node/purescript-node-fs-aff.git",
+    "version": "compiler/0.12"
+  },
   "node-path": {
     "dependencies": [],
     "repo": "https://github.com/purescript-node/purescript-node-path.git",
