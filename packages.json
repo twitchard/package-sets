@@ -800,6 +800,15 @@
     "repo": "https://github.com/purescript/purescript-partial.git",
     "version": "compiler/0.12"
   },
+  "posix-types": {
+    "dependencies": [
+      "maybe",
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript-node/purescript-posix-types.git",
+    "version": "compiler/0.12"
+  },
   "precise": {
     "dependencies": [
       "exceptions",
