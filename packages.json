@@ -655,12 +655,6 @@
     "repo": "https://github.com/purescript/purescript-newtype.git",
     "version": "compiler/0.12"
   },
-  "node-http": {
-    "dependencies": [
-    ],
-    "repo": "https://github.com/purescript-node/purescript-node-http.git",
-    "version": "compiler/0.12"
-  },
   "node-buffer": {
     "dependencies": [
       "arraybuffer-types",
@@ -728,6 +722,25 @@
     "repo": "https://github.com/purescript-node/purescript-node-fs-aff.git",
     "version": "compiler/0.12"
   },
+  "node-http": {
+    "dependencies": [
+      "arraybuffer-types",
+      "contravariant",
+      "effect",
+      "foreign",
+      "foreign-object",
+      "maybe",
+      "node-buffer",
+      "node-streams",
+      "node-url",
+      "nullable",
+      "options",
+      "prelude",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/purescript-node/purescript-node-http.git",
+    "version": "compiler/0.12"
+  },
   "node-path": {
     "dependencies": [],
     "repo": "https://github.com/purescript-node/purescript-node-path.git",
@@ -782,6 +795,19 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-nullable.git",
+    "version": "compiler/0.12"
+  },
+  "options": {
+    "dependencies": [
+      "contravariant",
+      "foreign",
+      "foreign-object",
+      "maybe",
+      "newtype",
+      "prelude",
+      "tuples"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-options.git",
     "version": "compiler/0.12"
   },
   "ordered-collections": {
