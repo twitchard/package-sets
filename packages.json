@@ -759,6 +759,18 @@
     "repo": "https://github.com/purescript-node/purescript-node-process.git",
     "version": "compiler/0.12"
   },
+  "node-readline": {
+    "dependencies": [
+      "effect",
+      "foreign",
+      "node-process",
+      "node-streams",
+      "options",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript-node/purescript-node-readline.git",
+    "version": "compiler/0.12"
+  },
   "node-streams": {
     "dependencies": [
       "effect",
