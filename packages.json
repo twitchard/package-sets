@@ -1,4 +1,24 @@
 {
+  "ace": {
+    "dependencies": [
+      "arrays",
+      "effect",
+      "either",
+      "foldable-traversable",
+      "foreign",
+      "functions",
+      "maybe",
+      "nullable",
+      "partial",
+      "prelude",
+      "st",
+      "transformers",
+      "web-html",
+      "web-uievents"
+    ],
+    "repo": "https://github.com/slamdata/purescript-ace.git",
+    "version": "compiler/0.12"
+  },
   "aff": {
     "dependencies": [
       "control",
