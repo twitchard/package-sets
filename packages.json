@@ -276,9 +276,10 @@
       "web-clipboard",
       "web-events",
       "web-html",
+      "web-touchevents",
       "web-uievents"
     ],
-    "repo": "https://github.com/kRITZCREEK/purescript-dom-indexed.git",
+    "repo": "https://github.com/slamdata/purescript-dom-indexed.git",
     "version": "compiler/0.12"
   },
   "effect": {
@@ -544,6 +545,7 @@
       "web-dom",
       "web-events",
       "web-html",
+      "web-touchevents",
       "web-uievents"
     ],
     "repo": "https://github.com/slamdata/purescript-halogen.git",
@@ -861,7 +863,9 @@
       "control",
       "foldable-traversable",
       "maybe",
-      "prelude"
+      "prelude",
+      "tuples",
+      "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-nonempty.git",
     "version": "compiler/0.12"
@@ -1317,7 +1321,6 @@
   },
   "web-clipboard": {
     "dependencies": [
-      "foreign",
       "maybe",
       "nullable",
       "prelude",
@@ -1331,14 +1334,11 @@
   "web-dom": {
     "dependencies": [
       "effect",
-      "either",
       "enums",
-      "foreign",
       "maybe",
       "newtype",
       "nullable",
       "prelude",
-      "transformers",
       "unsafe-coerce",
       "web-events"
     ],
@@ -1347,17 +1347,14 @@
   },
   "web-events": {
     "dependencies": [
-      "bifunctors",
       "datetime",
       "effect",
-      "either",
       "enums",
-      "foreign",
+      "functions",
       "maybe",
       "newtype",
       "nullable",
       "prelude",
-      "transformers",
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-events.git",
@@ -1381,26 +1378,18 @@
     "repo": "https://github.com/purescript-web/purescript-web-file.git",
     "version": "compiler/0.12"
   },
-  "web-touchevents": {
-    "dependencies": [
-    ],
-    "repo": "https://github.com/purescript-web/purescript-web-touchevents.git",
-    "version": "compiler/0.12"
-  },
   "web-html": {
     "dependencies": [
       "effect",
-      "either",
       "enums",
       "foreign",
+      "functions",
       "js-date",
       "maybe",
       "media-types",
       "newtype",
       "nullable",
-      "partial",
       "prelude",
-      "transformers",
       "unsafe-coerce",
       "web-dom",
       "web-events",
@@ -1430,24 +1419,36 @@
   "web-storage": {
     "dependencies": [
       "effect",
-      "foreign",
       "maybe",
       "nullable",
-      "prelude"
+      "prelude",
+      "unsafe-coerce",
+      "web-events"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-storage.git",
+    "version": "compiler/0.12"
+  },
+  "web-touchevents": {
+    "dependencies": [
+      "functions",
+      "maybe",
+      "nullable",
+      "prelude",
+      "unsafe-coerce",
+      "web-events",
+      "web-uievents"
+    ],
+    "repo": "https://github.com/purescript-web/purescript-web-touchevents.git",
     "version": "compiler/0.12"
   },
   "web-uievents": {
     "dependencies": [
       "effect",
       "enums",
-      "foreign",
       "maybe",
       "nullable",
       "prelude",
       "unsafe-coerce",
-      "web-dom",
       "web-events"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-uievents.git",
