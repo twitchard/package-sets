@@ -1381,6 +1381,12 @@
     "repo": "https://github.com/purescript-web/purescript-web-file.git",
     "version": "compiler/0.12"
   },
+  "web-touchevents": {
+    "dependencies": [
+    ],
+    "repo": "https://github.com/purescript-web/purescript-web-touchevents.git",
+    "version": "compiler/0.12"
+  },
   "web-html": {
     "dependencies": [
       "effect",
