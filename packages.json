@@ -1399,7 +1399,7 @@
       "web-dom",
       "web-events",
       "web-file",
-      "web-storage-new"
+      "web-storage"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-html.git",
     "version": "compiler/0.12"
@@ -1421,7 +1421,7 @@
     "repo": "https://github.com/purescript-web/purescript-web-socket.git",
     "version": "compiler/0.12"
   },
-  "web-storage-new": {
+  "web-storage": {
     "dependencies": [
       "effect",
       "foreign",
@@ -1429,7 +1429,7 @@
       "nullable",
       "prelude"
     ],
-    "repo": "https://github.com/purescript-web/purescript-web-storage-new.git",
+    "repo": "https://github.com/purescript-web/purescript-web-storage.git",
     "version": "compiler/0.12"
   },
   "web-uievents": {
