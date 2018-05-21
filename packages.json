@@ -87,6 +87,33 @@
     "repo": "https://github.com/slamdata/purescript-affjax.git",
     "version": "compiler/0.12"
   },
+  "argonaut": {
+    "dependencies": [
+      "argonaut-codecs",
+      "argonaut-core",
+      "argonaut-traversals"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-argonaut.git",
+    "version": "compiler/0.12"
+  },
+  "argonaut-codecs": {
+    "dependencies": [
+      "argonaut-core",
+      "bifunctors",
+      "either",
+      "foldable-traversable",
+      "foreign-object",
+      "integers",
+      "lists",
+      "maybe",
+      "ordered-collections",
+      "prelude",
+      "strings",
+      "tuples"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-argonaut-codecs.git",
+    "version": "compiler/0.12"
+  },
   "argonaut-core": {
     "dependencies": [
       "arrays",
@@ -102,6 +129,29 @@
       "tailrec"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-core.git",
+    "version": "compiler/0.12"
+  },
+  "argonaut-traversals": {
+    "dependencies": [
+      "argonaut-codecs",
+      "argonaut-core",
+      "arrays",
+      "control",
+      "either",
+      "foldable-traversable",
+      "foreign-object",
+      "gen",
+      "integers",
+      "lists",
+      "maybe",
+      "prelude",
+      "profunctor-lenses",
+      "strings",
+      "tailrec",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-argonaut-traversals.git",
     "version": "compiler/0.12"
   },
   "arraybuffer-types": {
@@ -311,7 +361,6 @@
       "nonempty",
       "partial",
       "prelude",
-      "strings",
       "tuples",
       "unfoldable"
     ],
@@ -1150,6 +1199,7 @@
       "arrays",
       "control",
       "either",
+      "enums",
       "foldable-traversable",
       "gen",
       "integers",
