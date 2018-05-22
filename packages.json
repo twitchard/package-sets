@@ -586,11 +586,6 @@
     "repo": "https://github.com/purescript/purescript-strings.git",
     "version": "compiler/0.12"
   },
-  "symbols": {
-    "dependencies": [],
-    "repo": "https://github.com/purescript/purescript-symbols.git",
-    "version": "compiler/0.12"
-  },
   "tailrec": {
     "dependencies": [
       "bifunctors",
