@@ -69,7 +69,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-const.git",
-    "version": "compiler/0.12"
+    "version": "v4.0.0"
   },
   "contravariant": {
     "dependencies": [
@@ -79,7 +79,7 @@
       "tuples"
     ],
     "repo": "https://github.com/purescript/purescript-contravariant.git",
-    "version": "compiler/0.12"
+    "version": "v4.0.0"
   },
   "control": {
     "dependencies": [
@@ -117,7 +117,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-distributive.git",
-    "version": "compiler/0.12"
+    "version": "v4.0.0"
   },
   "effect": {
     "dependencies": [
@@ -136,7 +136,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-either.git",
-    "version": "compiler/0.12"
+    "version": "v4.0.0"
   },
   "enums": {
     "dependencies": [
@@ -162,7 +162,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-exceptions.git",
-    "version": "compiler/0.12"
+    "version": "v4.0.0"
   },
   "exists": {
     "dependencies": [
@@ -181,7 +181,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-foldable-traversable.git",
-    "version": "compiler/0.12"
+    "version": "v4.0.0"
   },
   "foreign": {
     "dependencies": [
@@ -256,7 +256,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-functors.git",
-    "version": "compiler/0.12"
+    "version": "v3.0.0"
   },
   "gen": {
     "dependencies": [
@@ -299,7 +299,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-identity.git",
-    "version": "compiler/0.12"
+    "version": "v4.0.0"
   },
   "integers": {
     "dependencies": [
@@ -326,7 +326,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-lazy.git",
-    "version": "compiler/0.12"
+    "version": "v4.0.0"
   },
   "lcg": {
     "dependencies": [
@@ -542,7 +542,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-record.git",
-    "version": "compiler/0.12"
+    "version": "v1.0.0"
   },
   "refs": {
     "dependencies": [
@@ -569,7 +569,7 @@
       "tailrec"
     ],
     "repo": "https://github.com/purescript/purescript-st.git",
-    "version": "compiler/0.12"
+    "version": "v4.0.0"
   },
   "strings": {
     "dependencies": [
@@ -605,7 +605,7 @@
       "refs"
     ],
     "repo": "https://github.com/purescript/purescript-tailrec.git",
-    "version": "compiler/0.12"
+    "version": "v4.0.0"
   },
   "transformers": {
     "dependencies": [
@@ -639,7 +639,7 @@
       "type-equality"
     ],
     "repo": "https://github.com/purescript/purescript-tuples.git",
-    "version": "compiler/0.12"
+    "version": "v5.0.0"
   },
   "type-equality": {
     "dependencies": [],
