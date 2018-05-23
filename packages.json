@@ -283,7 +283,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-generics-rep.git",
-    "version": "compiler/0.12"
+    "version": "v6.0.0"
   },
   "globals": {
     "dependencies": [],
