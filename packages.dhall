@@ -1,7 +1,7 @@
     let corepkg = ./dhall/corepkg.dhall
 
 in  [ corepkg "arrays" "compiler/0.12"
-    , corepkg "assert" "compiler/0.12"
+    , corepkg "assert" "v4.0.0"
     , corepkg "bifunctors" "v4.0.0"
     , corepkg "catenable-lists" "compiler/0.12"
     , corepkg "console" "v4.0.0"

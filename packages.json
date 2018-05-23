@@ -24,7 +24,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-assert.git",
-    "version": "compiler/0.12"
+    "version": "v4.0.0"
   },
   "bifunctors": {
     "dependencies": [
@@ -530,9 +530,11 @@
   },
   "record": {
     "dependencies": [
+      "functions",
       "prelude",
       "st",
-      "typelevel-prelude"
+      "typelevel-prelude",
+      "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-record.git",
     "version": "compiler/0.12"
