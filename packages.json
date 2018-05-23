@@ -472,7 +472,7 @@
       "tuples"
     ],
     "repo": "https://github.com/purescript/purescript-profunctor.git",
-    "version": "compiler/0.12"
+    "version": "v4.0.0"
   },
   "proxy": {
     "dependencies": [
@@ -664,7 +664,7 @@
       "tuples"
     ],
     "repo": "https://github.com/purescript/purescript-unfoldable.git",
-    "version": "compiler/0.12"
+    "version": "v4.0.0"
   },
   "unsafe-coerce": {
     "dependencies": [],
