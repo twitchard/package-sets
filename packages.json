@@ -20,7 +20,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-arrays.git",
-    "version": "compiler/0.12"
+    "version": "v5.0.0"
   },
   "assert": {
     "dependencies": [
@@ -152,7 +152,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-enums.git",
-    "version": "compiler/0.12"
+    "version": "v4.0.0"
   },
   "exceptions": {
     "dependencies": [
@@ -272,7 +272,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-gen.git",
-    "version": "compiler/0.12"
+    "version": "v2.0.0"
   },
   "generics-rep": {
     "dependencies": [
