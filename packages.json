@@ -405,7 +405,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-nonempty.git",
-    "version": "compiler/0.12"
+    "version": "v5.0.0"
   },
   "ordered-collections": {
     "dependencies": [
