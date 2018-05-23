@@ -32,7 +32,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-bifunctors.git",
-    "version": "compiler/0.12"
+    "version": "v4.0.0"
   },
   "catenable-lists": {
     "dependencies": [
@@ -164,7 +164,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-exists.git",
-    "version": "compiler/0.12"
+    "version": "v4.0.0"
   },
   "foldable-traversable": {
     "dependencies": [
@@ -283,7 +283,7 @@
   "globals": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-globals.git",
-    "version": "compiler/0.12"
+    "version": "v4.0.0"
   },
   "identity": {
     "dependencies": [
@@ -304,7 +304,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-integers.git",
-    "version": "compiler/0.12"
+    "version": "v4.0.0"
   },
   "invariant": {
     "dependencies": [
@@ -334,7 +334,7 @@
       "random"
     ],
     "repo": "https://github.com/purescript/purescript-lcg.git",
-    "version": "compiler/0.12"
+    "version": "v2.0.0"
   },
   "lists": {
     "dependencies": [
@@ -367,7 +367,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-maybe.git",
-    "version": "compiler/0.12"
+    "version": "v4.0.0"
   },
   "minibench": {
     "dependencies": [
@@ -381,7 +381,7 @@
       "refs"
     ],
     "repo": "https://github.com/purescript/purescript-minibench.git",
-    "version": "compiler/0.12"
+    "version": "v2.0.0"
   },
   "newtype": {
     "dependencies": [
@@ -426,7 +426,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-orders.git",
-    "version": "compiler/0.12"
+    "version": "v4.0.0"
   },
   "parallel": {
     "dependencies": [
@@ -483,7 +483,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-psci-support.git",
-    "version": "compiler/0.12"
+    "version": "v4.0.0"
   },
   "quickcheck": {
     "dependencies": [
@@ -526,7 +526,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-random.git",
-    "version": "compiler/0.12"
+    "version": "v4.0.0"
   },
   "record": {
     "dependencies": [
@@ -637,7 +637,7 @@
   "type-equality": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-type-equality.git",
-    "version": "compiler/0.12"
+    "version": "v3.0.0"
   },
   "typelevel-prelude": {
     "dependencies": [
@@ -646,7 +646,7 @@
       "type-equality"
     ],
     "repo": "https://github.com/purescript/purescript-typelevel-prelude.git",
-    "version": "compiler/0.12"
+    "version": "v3.0.0"
   },
   "unfoldable": {
     "dependencies": [
@@ -662,7 +662,7 @@
   "unsafe-coerce": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-unsafe-coerce.git",
-    "version": "compiler/0.12"
+    "version": "v4.0.0"
   },
   "validation": {
     "dependencies": [
