@@ -50,7 +50,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-catenable-lists.git",
-    "version": "compiler/0.12"
+    "version": "v5.0.0"
   },
   "console": {
     "dependencies": [
@@ -213,7 +213,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-foreign-object.git",
-    "version": "compiler/0.12"
+    "version": "v1.0.0"
   },
   "free": {
     "dependencies": [
@@ -233,7 +233,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-free.git",
-    "version": "compiler/0.12"
+    "version": "v5.0.0"
   },
   "functions": {
     "dependencies": [
@@ -357,7 +357,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-lists.git",
-    "version": "compiler/0.12"
+    "version": "v5.0.0"
   },
   "math": {
     "dependencies": [],
@@ -423,7 +423,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-ordered-collections.git",
-    "version": "compiler/0.12"
+    "version": "v1.0.0"
   },
   "orders": {
     "dependencies": [
@@ -447,7 +447,7 @@
       "transformers"
     ],
     "repo": "https://github.com/purescript/purescript-parallel.git",
-    "version": "compiler/0.12"
+    "version": "v4.0.0"
   },
   "partial": {
     "dependencies": [],
@@ -522,7 +522,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-quickcheck.git",
-    "version": "compiler/0.12"
+    "version": "v5.0.0"
   },
   "random": {
     "dependencies": [
@@ -560,7 +560,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-semirings.git",
-    "version": "compiler/0.12"
+    "version": "v5.0.0"
   },
   "st": {
     "dependencies": [
@@ -591,7 +591,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-strings.git",
-    "version": "compiler/0.12"
+    "version": "v4.0.0"
   },
   "tailrec": {
     "dependencies": [
@@ -624,7 +624,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-transformers.git",
-    "version": "compiler/0.12"
+    "version": "v4.0.0"
   },
   "tuples": {
     "dependencies": [
