@@ -407,6 +407,15 @@
     "repo": "https://github.com/purescript/purescript-nonempty.git",
     "version": "v5.0.0"
   },
+  "nullable": {
+    "dependencies": [
+      "functions",
+      "maybe",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-nullable.git",
+    "version": "v4.0.0"
+  },
   "ordered-collections": {
     "dependencies": [
       "arrays",
