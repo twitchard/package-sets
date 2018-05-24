@@ -108,7 +108,7 @@
       "tuples"
     ],
     "repo": "https://github.com/purescript/purescript-datetime.git",
-    "version": "compiler/0.12"
+    "version": "v4.0.0"
   },
   "distributive": {
     "dependencies": [
@@ -196,7 +196,7 @@
       "transformers"
     ],
     "repo": "https://github.com/purescript/purescript-foreign.git",
-    "version": "compiler/0.12"
+    "version": "v5.0.0"
   },
   "foreign-object": {
     "dependencies": [
@@ -680,6 +680,6 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-validation.git",
-    "version": "compiler/0.12"
+    "version": "v4.0.0"
   }
 }

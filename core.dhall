@@ -1,4 +1,15 @@
-    let corepkg = ./dhall/corepkg.dhall
+    let corepkg =
+            λ(pkg : Text)
+          → λ(version : Text)
+          → { name =
+                pkg
+            , repo =
+                "https://github.com/purescript/purescript-${pkg}.git"
+            , version =
+                version
+            , dependencies =
+                [] : List Text
+            }
 
 in  [ corepkg "arrays" "v5.0.0"
     , corepkg "assert" "v4.0.0"
@@ -8,7 +19,7 @@ in  [ corepkg "arrays" "v5.0.0"
     , corepkg "const" "v4.0.0"
     , corepkg "contravariant" "v4.0.0"
     , corepkg "control" "v4.0.0"
-    , corepkg "datetime" "compiler/0.12"
+    , corepkg "datetime" "v4.0.0"
     , corepkg "distributive" "v4.0.0"
     , corepkg "effect" "v2.0.0"
     , corepkg "either" "v4.0.0"
@@ -16,7 +27,7 @@ in  [ corepkg "arrays" "v5.0.0"
     , corepkg "exceptions" "v4.0.0"
     , corepkg "exists" "v4.0.0"
     , corepkg "foldable-traversable" "v4.0.0"
-    , corepkg "foreign" "compiler/0.12"
+    , corepkg "foreign" "v5.0.0"
     , corepkg "foreign-object" "v1.0.0"
     , corepkg "free" "v5.0.0"
     , corepkg "functions" "v4.0.0"
@@ -57,5 +68,5 @@ in  [ corepkg "arrays" "v5.0.0"
     , corepkg "typelevel-prelude" "v3.0.0"
     , corepkg "unfoldable" "v4.0.0"
     , corepkg "unsafe-coerce" "v4.0.0"
-    , corepkg "validation" "compiler/0.12"
+    , corepkg "validation" "v4.0.0"
     ]
