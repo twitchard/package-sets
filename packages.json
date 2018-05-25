@@ -1,4 +1,9 @@
 {
+  "arraybuffer-types": {
+    "dependencies": [],
+    "repo": "https://github.com/purescript-contrib/purescript-arraybuffer-types.git",
+    "version": "v2.0.0"
+  },
   "arrays": {
     "dependencies": [
       "bifunctors",
@@ -53,7 +58,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-console.git",
-    "version": "v4.1.0"
+    "version": "v4.0.0"
   },
   "const": {
     "dependencies": [
@@ -369,6 +374,20 @@
     "repo": "https://github.com/purescript/purescript-maybe.git",
     "version": "v4.0.0"
   },
+  "minibench": {
+    "dependencies": [
+      "console",
+      "effect",
+      "globals",
+      "integers",
+      "math",
+      "partial",
+      "prelude",
+      "refs"
+    ],
+    "repo": "https://github.com/purescript/purescript-minibench.git",
+    "version": "v2.0.0"
+  },
   "newtype": {
     "dependencies": [
       "prelude"
@@ -411,7 +430,7 @@
       "newtype",
       "prelude"
     ],
-    "repo": "https://github.com/purescript/purescript-orders",
+    "repo": "https://github.com/purescript/purescript-orders.git",
     "version": "v4.0.0"
   },
   "parallel": {
@@ -471,11 +490,45 @@
     "repo": "https://github.com/purescript/purescript-psci-support.git",
     "version": "v4.0.0"
   },
+  "quickcheck": {
+    "dependencies": [
+      "arrays",
+      "console",
+      "control",
+      "effect",
+      "either",
+      "enums",
+      "exceptions",
+      "foldable-traversable",
+      "gen",
+      "generics-rep",
+      "identity",
+      "integers",
+      "lazy",
+      "lcg",
+      "lists",
+      "math",
+      "maybe",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "record",
+      "st",
+      "strings",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript/purescript-quickcheck.git",
+    "version": "v5.0.0"
+  },
   "random": {
     "dependencies": [
       "effect",
       "integers",
-      "math"
+      "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-random.git",
     "version": "v4.0.0"
@@ -615,7 +668,7 @@
   },
   "unsafe-coerce": {
     "dependencies": [],
-    "repo": "https://github.com/purescript/purescript-unsafe-coerce",
+    "repo": "https://github.com/purescript/purescript-unsafe-coerce.git",
     "version": "v4.0.0"
   },
   "validation": {

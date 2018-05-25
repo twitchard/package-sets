@@ -1,0 +1,72 @@
+    let corepkg =
+            λ(pkg : Text)
+          → λ(version : Text)
+          → { name =
+                pkg
+            , repo =
+                "https://github.com/purescript/purescript-${pkg}.git"
+            , version =
+                version
+            , dependencies =
+                [] : List Text
+            }
+
+in  [ corepkg "arrays" "v5.0.0"
+    , corepkg "assert" "v4.0.0"
+    , corepkg "bifunctors" "v4.0.0"
+    , corepkg "catenable-lists" "v5.0.0"
+    , corepkg "console" "v4.0.0"
+    , corepkg "const" "v4.0.0"
+    , corepkg "contravariant" "v4.0.0"
+    , corepkg "control" "v4.0.0"
+    , corepkg "datetime" "v4.0.0"
+    , corepkg "distributive" "v4.0.0"
+    , corepkg "effect" "v2.0.0"
+    , corepkg "either" "v4.0.0"
+    , corepkg "enums" "v4.0.0"
+    , corepkg "exceptions" "v4.0.0"
+    , corepkg "exists" "v4.0.0"
+    , corepkg "foldable-traversable" "v4.0.0"
+    , corepkg "foreign" "v5.0.0"
+    , corepkg "foreign-object" "v1.0.0"
+    , corepkg "free" "v5.0.0"
+    , corepkg "functions" "v4.0.0"
+    , corepkg "functors" "v3.0.0"
+    , corepkg "gen" "v2.0.0"
+    , corepkg "generics-rep" "v6.0.0"
+    , corepkg "globals" "v4.0.0"
+    , corepkg "identity" "v4.0.0"
+    , corepkg "integers" "v4.0.0"
+    , corepkg "invariant" "v4.0.0"
+    , corepkg "lazy" "v4.0.0"
+    , corepkg "lcg" "v2.0.0"
+    , corepkg "lists" "v5.0.0"
+    , corepkg "math" "v2.1.1"
+    , corepkg "maybe" "v4.0.0"
+    , corepkg "minibench" "v2.0.0"
+    , corepkg "newtype" "v3.0.0"
+    , corepkg "nonempty" "v5.0.0"
+    , corepkg "orders" "v4.0.0"
+    , corepkg "ordered-collections" "v1.0.0"
+    , corepkg "parallel" "v4.0.0"
+    , corepkg "partial" "v2.0.0"
+    , corepkg "prelude" "v4.0.0"
+    , corepkg "profunctor" "v4.0.0"
+    , corepkg "proxy" "v3.0.0"
+    , corepkg "psci-support" "v4.0.0"
+    , corepkg "quickcheck" "v5.0.0"
+    , corepkg "random" "v4.0.0"
+    , corepkg "record" "v1.0.0"
+    , corepkg "refs" "v4.0.0"
+    , corepkg "semirings" "v5.0.0"
+    , corepkg "st" "v4.0.0"
+    , corepkg "strings" "v4.0.0"
+    , corepkg "tailrec" "v4.0.0"
+    , corepkg "transformers" "v4.0.0"
+    , corepkg "tuples" "v5.0.0"
+    , corepkg "type-equality" "v3.0.0"
+    , corepkg "typelevel-prelude" "v3.0.0"
+    , corepkg "unfoldable" "v4.0.0"
+    , corepkg "unsafe-coerce" "v4.0.0"
+    , corepkg "validation" "v4.0.0"
+    ]
