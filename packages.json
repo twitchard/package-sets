@@ -1,4 +1,17 @@
 {
+  "aff": {
+    "dependencies": [
+      "datetime",
+      "effect",
+      "exceptions",
+      "functions",
+      "parallel",
+      "transformers",
+      "unsafe-coerce"
+    ],
+    "repo": "git://github.com/slamdata/purescript-aff.git",
+    "version": "v5.0.0"
+  },
   "argonaut-core": {
     "dependencies": [
       "arrays",
