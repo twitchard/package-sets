@@ -669,6 +669,18 @@
     "repo": "https://github.com/purescript/purescript-semirings.git",
     "version": "v5.0.0"
   },
+  "simple-json": {
+    "dependencies": [
+      "foreign-generic",
+      "nullable",
+      "prelude",
+      "record",
+      "typelevel-prelude",
+      "variant"
+    ],
+    "repo": "git://github.com/justinwoo/purescript-simple-json.git",
+    "version": "v3.0.0"
+  },
   "st": {
     "dependencies": [
       "partial",
