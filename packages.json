@@ -1,4 +1,21 @@
 {
+  "argonaut-core": {
+    "dependencies": [
+      "arrays",
+      "control",
+      "either",
+      "foreign-object",
+      "functions",
+      "gen",
+      "maybe",
+      "nonempty",
+      "prelude",
+      "strings",
+      "tailrec"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-argonaut-core.git",
+    "version": "v4.0.0"
+  },
   "arraybuffer-types": {
     "dependencies": [],
     "repo": "https://github.com/purescript-contrib/purescript-arraybuffer-types.git",
@@ -215,6 +232,18 @@
     "repo": "https://github.com/purescript/purescript-foreign-object.git",
     "version": "v1.0.0"
   },
+  "form-urlencoded": {
+    "dependencies": [
+      "globals",
+      "maybe",
+      "newtype",
+      "prelude",
+      "strings",
+      "tuples"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-form-urlencoded.git",
+    "version": "v4.0.0"
+  },
   "free": {
     "dependencies": [
       "catenable-lists",
@@ -234,6 +263,19 @@
     ],
     "repo": "https://github.com/purescript/purescript-free.git",
     "version": "v5.0.0"
+  },
+  "freet": {
+    "dependencies": [
+      "bifunctors",
+      "effect",
+      "either",
+      "exists",
+      "prelude",
+      "tailrec",
+      "transformers"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-freet.git",
+    "version": "v4.0.0"
   },
   "functions": {
     "dependencies": [
@@ -288,6 +330,15 @@
   "globals": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-globals.git",
+    "version": "v4.0.0"
+  },
+  "http-methods": {
+    "dependencies": [
+      "either",
+      "prelude",
+      "strings"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-http-methods.git",
     "version": "v4.0.0"
   },
   "identity": {
@@ -372,6 +423,14 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-maybe.git",
+    "version": "v4.0.0"
+  },
+  "media-types": {
+    "dependencies": [
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-media-types.git",
     "version": "v4.0.0"
   },
   "minibench": {
@@ -679,6 +738,11 @@
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-unsafe-coerce.git",
     "version": "v4.0.0"
+  },
+  "unsafe-reference": {
+    "dependencies": [],
+    "repo": "https://github.com/purescript-contrib/purescript-unsafe-reference.git",
+    "version": "v3.0.0"
   },
   "validation": {
     "dependencies": [
