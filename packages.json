@@ -228,6 +228,22 @@
     "repo": "https://github.com/purescript/purescript-foreign.git",
     "version": "v5.0.0"
   },
+  "foreign-generic": {
+    "dependencies": [
+      "console",
+      "eff",
+      "exceptions",
+      "foreign",
+      "generics-rep",
+      "globals",
+      "maps",
+      "nullable",
+      "proxy",
+      "symbols"
+    ],
+    "repo": "git://github.com/paf31/purescript-foreign-generic.git",
+    "version": "v6.0.0"
+  },
   "foreign-object": {
     "dependencies": [
       "arrays",
