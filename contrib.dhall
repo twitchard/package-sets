@@ -19,4 +19,5 @@ in  [ contribpkg "arraybuffer-types" "v2.0.0"
     , contribpkg "http-methods" "v4.0.0"
     , contribpkg "unsafe-reference" "v3.0.0"
     , contribpkg "form-urlencoded" "v4.0.0"
+    , contribpkg "profunctor-lenses" "v4.0.0"
     ]

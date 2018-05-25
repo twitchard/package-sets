@@ -542,6 +542,32 @@
     "repo": "https://github.com/purescript/purescript-profunctor.git",
     "version": "v4.0.0"
   },
+  "profunctor-lenses": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "const",
+      "control",
+      "distributive",
+      "either",
+      "foldable-traversable",
+      "foreign-object",
+      "functors",
+      "identity",
+      "lists",
+      "maybe",
+      "newtype",
+      "ordered-collections",
+      "partial",
+      "prelude",
+      "profunctor",
+      "record",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-profunctor-lenses.git",
+    "version": "v4.0.0"
+  },
   "proxy": {
     "dependencies": [
       "prelude"
