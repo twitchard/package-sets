@@ -334,6 +334,16 @@
     "repo": "https://github.com/slamdata/purescript-dom-indexed.git",
     "version": "v6.0.0"
   },
+  "easy-alexa": {
+    "dependencies": [
+      "alexa",
+      "generics-rep",
+      "prelude",
+      "simple-json"
+    ],
+    "repo": "https://github.com/twitchard/purescript-easy-alexa.git",
+    "version": "v0.0.1"
+  },
   "effect": {
     "dependencies": [
       "prelude"
