@@ -49,6 +49,18 @@
     "repo": "https://github.com/slamdata/purescript-affjax.git",
     "version": "v6.0.0"
   },
+  "alexa": {
+    "dependencies": [
+      "aff",
+      "console",
+      "generics-rep",
+      "prelude",
+      "profunctor-lenses",
+      "simple-json"
+    ],
+    "repo": "https://github.com/twitchard/purescript-alexa.git",
+    "version": "v0.4.0"
+  },
   "ansi": {
     "dependencies": [
       "foldable-traversable",
