@@ -59,7 +59,7 @@
       "simple-json"
     ],
     "repo": "https://github.com/twitchard/purescript-alexa.git",
-    "version": "v0.4.0"
+    "version": "v0.4.3"
   },
   "ansi": {
     "dependencies": [
