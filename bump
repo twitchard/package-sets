@@ -1,0 +1,23 @@
+#!/usr/bin/env node
+const fs = require('fs')
+function bump(source, packageName, newVersion) {
+    const packageBlob = source[packageName]
+    const newPackageBlob = Object.assign({}, packageBlob, {version : newVersion})
+    const newSource = Object.assign({}, source, { [packageName]: newPackageBlob})
+    return newSource
+}
+
+const packageName = process.argv[2]
+const newVersion = process.argv[3]
+
+console.log(
+    JSON.stringify(
+        bump(
+            JSON.parse(fs.readFileSync('packages.json')),
+            packageName,
+            newVersion
+        ),
+        null,
+        2
+    )
+)
