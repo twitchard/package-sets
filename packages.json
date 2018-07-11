@@ -342,7 +342,7 @@
       "simple-json"
     ],
     "repo": "https://github.com/twitchard/purescript-easy-alexa.git",
-    "version": "v0.0.5"
+    "version": "v0.0.6"
   },
   "effect": {
     "dependencies": [
