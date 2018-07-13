@@ -431,16 +431,6 @@
     "repo": "https://github.com/purescript/purescript-exists.git",
     "version": "v4.0.0"
   },
-  "express": {
-    "dependencies": [
-        "foreign",
-        "foreign-generic",
-        "node-http",
-        "data-default"
-    ],
-    "repo": "https://github.com/nkly/purescript-express.git",
-    "version": "e20c1c77e1092f3a5581992c5061212c8c4ecbdc"
-  },
   "filterable": {
     "dependencies": [
       "arrays",
@@ -1304,6 +1294,18 @@
     ],
     "repo": "https://github.com/purescript/purescript-quickcheck.git",
     "version": "v5.0.0"
+  },
+  "quickserve": {
+    "dependencies": [
+      "aff",
+      "console",
+      "foreign-generic",
+      "node-http",
+      "record",
+      "typelevel-prelude"
+    ],
+    "repo": "git://github.com/paf31/purescript-quickserve.git",
+    "version": "v3.0.0"
   },
   "random": {
     "dependencies": [
