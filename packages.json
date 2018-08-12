@@ -344,6 +344,15 @@
     "repo": "https://github.com/sharkdp/purescript-decimals.git",
     "version": "v4.0.0"
   },
+  "dispatcher-react": {
+    "dependencies": [
+      "aff",
+      "react",
+      "refs"
+    ],
+    "repo": "git://github.com/doolse/purescript-dispatcher-react.git",
+    "version": "v4.0.0"
+  },
   "distributive": {
     "dependencies": [
       "identity",
